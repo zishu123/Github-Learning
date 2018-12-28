@@ -1,0 +1,81 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container"><br><br>
+        <div class="jumbotron">
+        
+        <table class="table table-bordered" id="sudentList">
+            <thead class="bg-dark text-white text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Class</th>
+                    <th>Year</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <br><br><br><br><br>
+        
+            <form autocomplete="off" onsubmit="event.preventDefault();onFormSubmit();"> 
+
+            <div class="form-group">
+                <label>Student ID</label>
+                <input type="text" name="sid" class="form-control" id="stuID">
+            </div>
+
+            <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" name="sname" class="form-control" id="stuName">
+            </div>
+
+        
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="email" class="form-control" id="stuEmail">
+            </div>
+
+            <div class="form-group">
+                <label>Class</label>
+                <input type="text" name="class" class="form-control" id="stuClass">
+            </div>
+
+            <div class="form-group">
+                <label>Enrollment Year</label>
+                <input type="text" name="enroll" class="form-control" id="enrollYear">
+            </div>
+
+            <div class="form-group">
+                <label>City</label>
+                <input type="text" name="city" class="form-control" id="stuCity">
+            </div>
+
+            <div class="form-group">
+                <label>Country</label>
+                <input type="text" name="country" class="form-control" id="stuCountry">
+            </div>
+
+            <div class="form-group" align="center">
+                <input type="submit" value="Save" class="btn btn-success">
+                <input type="reset" value="Clear" class="btn btn-success ml-4">
+            </div>
+        </form>
+        </div>
+    </div>  
+    <script src="script2.js"></script>
+</body>
+</html>
