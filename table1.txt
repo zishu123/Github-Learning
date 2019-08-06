@@ -97,3 +97,10 @@ thead, tbody tr {
 thead {
     width: calc( 100% - 1em )
 }
+
+
+<div class="table-responsive">
+  <table class="table">
+    ...
+  </table>
+</div>
